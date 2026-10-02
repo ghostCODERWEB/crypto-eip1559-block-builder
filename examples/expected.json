@@ -1,0 +1,58 @@
+{
+  "blocks": [
+    {
+      "base_fee": 100,
+      "gas_used": 63000,
+      "index": 0,
+      "next_base_fee": 103,
+      "transactions": [
+        {
+          "cost": 2310000,
+          "effective_tip": 10,
+          "gas": 21000,
+          "id": "b0",
+          "max_fee": 200,
+          "nonce": 0,
+          "priority_fee": 10,
+          "sender": "bob"
+        },
+        {
+          "cost": 2205000,
+          "effective_tip": 5,
+          "gas": 21000,
+          "id": "a0",
+          "max_fee": 200,
+          "nonce": 0,
+          "priority_fee": 5,
+          "sender": "alice"
+        },
+        {
+          "cost": 2520000,
+          "effective_tip": 20,
+          "gas": 21000,
+          "id": "a1",
+          "max_fee": 200,
+          "nonce": 1,
+          "priority_fee": 20,
+          "sender": "alice"
+        }
+      ]
+    },
+    {
+      "base_fee": 103,
+      "gas_used": 0,
+      "index": 1,
+      "next_base_fee": 91,
+      "transactions": []
+    }
+  ],
+  "burned": 6300000,
+  "final_base_fee": 91,
+  "nonces": {
+    "alice": 2,
+    "bob": 1
+  },
+  "pending": [],
+  "total_transaction_cost": 7035000,
+  "validator_tips": 735000
+}

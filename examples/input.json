@@ -1,0 +1,31 @@
+{
+  "initial_base_fee": 100,
+  "gas_limit": 100000,
+  "block_count": 2,
+  "transactions": [
+    {
+      "id": "a0",
+      "sender": "alice",
+      "nonce": 0,
+      "gas": 21000,
+      "max_fee": 200,
+      "priority_fee": 5
+    },
+    {
+      "id": "a1",
+      "sender": "alice",
+      "nonce": 1,
+      "gas": 21000,
+      "max_fee": 200,
+      "priority_fee": 20
+    },
+    {
+      "id": "b0",
+      "sender": "bob",
+      "nonce": 0,
+      "gas": 21000,
+      "max_fee": 200,
+      "priority_fee": 10
+    }
+  ]
+}
